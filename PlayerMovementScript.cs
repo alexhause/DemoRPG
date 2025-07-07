@@ -6,8 +6,6 @@ public class PlayerMovementScript : MonoBehaviour
     private NavMeshAgent agent;
     private Camera cam;
 
-    [SerializeField] private Transform targetPosition;
-
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
